@@ -2,5 +2,18 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="calculator.cpp">
+      <Filter>calculator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="calculator">
+      <UniqueIdentifier>{821a23fa-6cc9-4bae-abb8-c1f55d6bbda3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="calculator.h">
+      <Filter>calculator</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
