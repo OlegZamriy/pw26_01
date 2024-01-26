@@ -7,7 +7,7 @@ int calculateDecimalValue(const std::string& input) {
         int result = std::stoi(input, &pos);
 
         if (pos != input.length()) {
-            throw std::invalid_argument("Неправильний формат числа");
+            throw std::invalid_argument("Incorrect number format");
         }
 
         return result;
