@@ -34,7 +34,7 @@ void DoublyLinkedList::insertAtEnd(int val) {
 
 void DoublyLinkedList::removeFromFront() {
     if (!head) {
-        throw std::out_of_range("Спроба видалення з пустого списку");
+        throw std::out_of_range("Attempting to delete from an empty list");
     }
 
     Node* temp = head;
